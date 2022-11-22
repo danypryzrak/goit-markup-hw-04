@@ -346,7 +346,8 @@ font-size: 36px;
 
 }
 
-.team-social-link:hover{
+.team-social-link:hover,
+.team-social-link:focus{
     background-color: var(--brand-color);
     color: var(--white);
 }
@@ -395,7 +396,8 @@ font-size: 36px;
    
 }
 
-.partners-link:hover{
+.partners-link:hover,
+.partners-link:focus{
     border-color: var(--brand-color);
     color: var(--brand-color);
 }
@@ -420,7 +422,7 @@ font-size: 36px;
     display: flex;
 }
 
-.footer-contacts{
+.footer-contacts-box{
     padding: 60px 0;
 }
 
@@ -466,7 +468,8 @@ margin-top: 9px;
 }
 
 .footer-contacts{
-   
+    
+   padding: auto 0;
         font-size: 14px;
         font-style: normal;
         line-height: 1.7;
@@ -519,9 +522,11 @@ margin-top: 9px;
     border-radius: 50%;
 }
 
-.footer-social-link:hover{
+.footer-social-link:hover,   
+.footer-social-link:focus{
 background-color: var(--brand-color)
 }
+
 
 .footer-social-icon{
     display: block;
