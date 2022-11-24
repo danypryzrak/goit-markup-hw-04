@@ -606,14 +606,7 @@ background-color: var(--brand-color)
     fill: var(--white);
 }
 
-.backdrop{
-    position:fixed;
-    width: 528px;
-    height: 581px;
-    top: 231px;
-    left: 536px;
-    background-color: #188CE8;
-}
+
 
 /* !!Portfolio!! */
 
